@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Project Name - Linear Regression Assignment
+This repository contains the code for multiple linear regression model for predicting the demand for shared bikes
 
 
 ## Table of Contents
@@ -8,45 +8,35 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+This project involves building a multiple linear regression model to predict the demand for shared bikes. The goal is to help BoomBikes, a bike-sharing service provider, understand the factors influencing bike demand.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Key Factors Affecting Demand:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+* Year: Bike demand increased from 2018 to 2019.
+* Holiday and Working Day: Non-holidays have slightly higher bike rentals than holidays.
+* Weather: Clear weather has the highest bike rentals, followed by misty weather, with light rain resulting in the lowest rentals.
+* Months: Demand is lowest in January and December and peak in May to October.
+* Weekends: Saturdays see more bike rentals than weekdays.
+* Seasons: Spring has the lowest bike rentals.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+* python 3.11.5
+* pandas - 2.0.3
+* numpy - 1.24.3
+* matplotlib - 3.7.2
+* seaborn - 0.12.2
+* jupyter notebook - 6.5.4
+* scikit-learn - 1.2.2
+* statsmodels - 0.13.5
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+* This case study was carried out as part of Upgrad-IIITB AI-ML Executive PG Program
+* References
+  - Upgrad Course - https//learn.upgrad.com
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@Shahtirth19](https://github.com/Shahtirth19)
